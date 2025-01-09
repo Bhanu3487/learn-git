@@ -1,29 +1,36 @@
 def add(a, b):
+    """Returns the sum of a and b."""
     return a + b
 
 def subtract(a, b):
+    """Returns the difference between a and b."""
     return a - b  
 
 def multiply(a, b):
+    """Returns the product of a and b."""
     return a * b
 
 def divide_numbers(a, b):
+    """Returns the quotient of a divided by b, or None if division by zero."""
     if b != 0:
         return a / b
     print("Cannot divide by zero")  
     return None
-        
-def divide_numbers2(a, b):
+
+def modulo(a, b):
+    """Returns the remainder when a is divided by b, or None if division by zero."""
     if b != 0:
         return a % b
     print("Cannot divide by zero")  
     return None
-        
+
 def euclid(a, b):
-    while b != 0:  
+    """Returns the greatest common divisor (GCD) of a and b using Euclid's algorithm."""
+    while b != 0:
         a, b = b, a % b
     return a
 
+# Test values
 a_value = 5
 b_value = 3
 
@@ -41,7 +48,7 @@ quotient = divide_numbers(a_value, b_value)
 if quotient is not None:
     print(f"The quotient of a divided by b is {quotient}")
 
-remainder = divide_numbers2(a_value, b_value)
+remainder = modulo(a_value, b_value)
 if remainder is not None:
     print(f"The remainder when a is divided by b is {remainder}")
 
