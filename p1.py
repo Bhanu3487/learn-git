@@ -10,7 +10,7 @@ def multuply(a, b):
 def divide_numbers(a, b):
     if b != 0:
         return a / b
-    else
+    else:
         print("Cannot divide by zero")  
         
 def divide_numbers2(a, b):
