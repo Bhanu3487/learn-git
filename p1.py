@@ -1,3 +1,5 @@
+"""This module contains basic arithmetic operations and Euclid's algorithm for GCD."""
+
 def add(a, b):
     """Returns the sum of a and b."""
     return a + b
