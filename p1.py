@@ -6,7 +6,7 @@ def add(a, b):
 
 def subtract(a, b):
     """Returns the difference between a and b."""
-    return a - b  
+    return a - b
 
 def multiply(a, b):
     """Returns the product of a and b."""
@@ -16,14 +16,14 @@ def divide_numbers(a, b):
     """Returns the quotient of a divided by b, or None if division by zero."""
     if b != 0:
         return a / b
-    print("Cannot divide by zero")  
+    print("Cannot divide by zero")
     return None
 
 def modulo(a, b):
     """Returns the remainder when a is divided by b, or None if division by zero."""
     if b != 0:
         return a % b
-    print("Cannot divide by zero")  
+    print("Cannot divide by zero")
     return None
 
 def euclid(a, b):
