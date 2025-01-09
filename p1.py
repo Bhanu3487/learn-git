@@ -18,7 +18,7 @@ def divide_numbers2(a, b):
         c = a%b
         
 def euclid(a, b):
-    whil b != 0:  
+    while b != 0:  
         a, b = b, a % b
     return a
 
