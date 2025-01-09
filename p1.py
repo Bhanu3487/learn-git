@@ -30,7 +30,7 @@ print(f"The sum of a and b is {sum}")
 difference = subtract(a, b)
 print(f"The sum of a and b is {sum}")
 
-product = product(a, b)
+product = multiply(a, b)
 print(f"The profuct of a and b is {product}")
 
 b = 0
