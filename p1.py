@@ -31,26 +31,26 @@ def euclid(a, b):
     return a
 
 # Test values
-a_value = 5
-b_value = 3
+A_VALUE = 5
+B_VALUE = 3
 
-sum_result = add(a_value, b_value)
-print(f"The sum of a and b is {sum_result}")
+SUM_RESULT = add(A_VALUE, B_VALUE)
+print(f"The sum of a and b is {SUM_RESULT}")
 
-difference = subtract(a_value, b_value)
-print(f"The difference between a and b is {difference}")
+DIFFERENCE = subtract(A_VALUE, B_VALUE)
+print(f"The difference between a and b is {DIFFERENCE}")
 
-product = multiply(a_value, b_value)
-print(f"The product of a and b is {product}")
+PRODUCT = multiply(A_VALUE, B_VALUE)
+print(f"The product of a and b is {PRODUCT}")
 
-b_value = 0
-quotient = divide_numbers(a_value, b_value)
-if quotient is not None:
-    print(f"The quotient of a divided by b is {quotient}")
+B_VALUE = 0
+QUOTIENT = divide_numbers(A_VALUE, B_VALUE)
+if QUOTIENT is not None:
+    print(f"The quotient of a divided by b is {QUOTIENT}")
 
-remainder = modulo(a_value, b_value)
-if remainder is not None:
-    print(f"The remainder when a is divided by b is {remainder}")
+REMAINDER = modulo(A_VALUE, B_VALUE)
+if REMAINDER is not None:
+    print(f"The remainder when a is divided by b is {REMAINDER}")
 
-gcd = euclid(a_value, b_value)
-print(f"The GCD of a and b is {gcd}")
+GCD = euclid(A_VALUE, B_VALUE)
+print(f"The GCD of a and b is {GCD}")
