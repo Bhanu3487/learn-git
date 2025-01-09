@@ -16,6 +16,9 @@ def divide_numbers(a, b):
 def divide_numbers2(a, b):
     if b != 0:
         c = a%b
+        return c
+    else:
+        print("Cannot divide by zero")  
         
 def euclid(a, b):
     while b != 0:  
